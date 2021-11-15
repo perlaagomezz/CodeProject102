@@ -12,12 +12,45 @@ function percent(numerator){
     return rounded;
   }
 
-  let question1 = prompt ('What is Mr. Mums favorite color?  A.Green  B.Purple  C.Blue')
+  let question1 = prompt('What is Mr. Mumms favorite color?  A.Green  B.orange  C.Blue')
+  
   let question2 = prompt(' What is Nates favorite color?  A.Lime green  B.Red  C.Blue ')
+  
   let question3 = prompt('What is Lilys favorite color?  A.Pink  B.Light  Purple  C.Purple')
+  
   let question4 = prompt('What is Jamaris favorite color?  A.Brown  B.Green  C.Yellow')
+  
   let question5 = prompt('What is Perlas favorite color?  A.Black  B.Red  C.Blue')
-  let question6 = prompt('When is Mr. Mums birthday A.sept 24th  B.Nov 1st C. July 14th')
-  let question7 = prompt('When is Nates birthday A.March 5th B. April 4th C.Apil 12th')
-  let question8 = prompt('When is Lilys birthday A.Sep 13th B.October 4th C.August 27th')
-  let question9 = prompt('When is Jamaris birthday A.Dec 26st B. January 3rd C.Dec 28th')
+
+  let question6 = prompt('what is Tyis favorite color? A.salmon B.light pink C.coral')
+
+  let question7 = prompt('What is Joedens favorite color? A.Blue B.Purple C.Pink')
+  
+  let question8 = prompt('What is Camerons favorite color? A.Orange B.Green C.Purple')
+  
+  let question9 = prompt('When is Mr. Mumms birthda?y A.Sept 24th  B.Nov 1st C.July 14th')
+  
+  let question10 = prompt('When is Nates birthday? A.March 5th B.April 4th C.Apil 12th')
+  
+  let question11 = prompt('When is Lilys birthday?? A.Sep 13th B.October 4th C.August 27th')
+  
+  let question12 = prompt('When is Jamaris birthday A.Dec 26st B. January 3rd C.Dec 28th')
+  
+  let question13 = prompt('When is Perlas birthday? A.May 1st B.March 21st C. April 3rd')
+
+  let question14 = prompt('When is Tyis birthday? A.Oct 7th B.July 28th C.Dec 22nd')
+
+  let question15 = prompt('When is Joedens birthday? A.Nov 5th B.Oct 27th C.Dec 1st ')
+  
+  let question16 = prompt('When is Camerons birthday? A.Dec 30th B.Jan 5th C.Jan 1st')
+
+  let question17 = prompt('What is Mr.Mumms favorite animal? A.Dog B.Zebra C.Elephant')
+  
+  let question18 = prompt('What is Nates favorite animal? A.Shark B.Blob fish C.Puffer Fish')
+
+  let question19 = prompt('What is Lilys favorite animal A.Cat B.Bear C.Spider')
+
+  let question20 = prompt('What is Jamaris favorite animal? A.Lion B.Panda C.Rihno')
+
+  let question21 = prompt('What is Tyis favorite animal? A.Panther B.Siberian Tigar C.Tigar')
+  
