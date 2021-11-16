@@ -1,6 +1,6 @@
 // console.log ('hello')
 
-alert ('Do you really know your classmates, guess the correct answers!')
+alert ('Do you really know your classmates, guess the correct answers! Answer in lowercase.')
 
 const userName = prompt('Please Enter Your Name');
 let rightAnswer = 0;
@@ -53,4 +53,13 @@ function percent(numerator){
   let question20 = prompt('What is Jamaris favorite animal? A.Lion B.Panda C.Rihno')
 
   let question21 = prompt('What is Tyis favorite animal? A.Panther B.Siberian Tigar C.Tigar')
-  
+
+
+  //-----------------------------------Question 1-------------------------------------//
+
+  if (question1 ==="c") {
+      document.write("<section><h2>1.What is Mr. Mumms favorite color?</h2> Question 1 was correct the letter you picked is C </p></section>")
+  }
+  if(question1 !== "c"){
+      document.write("<section><h3>1.What is Mr. Mumms favorite color?</h2><p>The letter you picked was incorrect.The correct letter is C.</p></section>")
+  }
