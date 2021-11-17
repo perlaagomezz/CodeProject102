@@ -1,0 +1,23 @@
+header{
+    color: white;
+    font-family: 'Shalimar', cursive;
+    font-size: 36px;
+    text-align: center;
+  
+}
+
+body{
+    background-color:lightslategrey;
+}
+
+h2{
+    color:white;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+font-size: 18px;
+}
+section{
+    color: lightpink;
+    text-align: center;
+}
+
