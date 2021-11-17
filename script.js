@@ -58,8 +58,44 @@ function percent(numerator){
   //-----------------------------------Question 1-------------------------------------//
 
   if (question1 ==="c") {
-      document.write("<section><h2>1.What is Mr. Mumms favorite color?</h2> Question 1 was correct the letter you picked is C </p></section>")
+      document.write("<section><h2> 1.What is Mr. Mumms favorite color?</h2> Question 1 was correct! The answer is blue</p></section>")
   }
   if(question1 !== "c"){
-      document.write("<section><h3>1.What is Mr. Mumms favorite color?</h2><p>The letter you picked was incorrect.The correct letter is C.</p></section>")
+      document.write("<section><h2> 1.What is Mr. Mumms favorite color?</h2><p> Question 1 was incorrect. The correct answer is C.</p></section>")
   }
+
+  //-----------------------------------Question 2-------------------------------------//
+
+  if (question2 ==="c") {
+      document.write("<section><h2> 2. What is Nates favorite color?</h2> Question 2 was correct! the answer is Blue. </p></section>")
+  }
+  if (question2 !=="c") {
+      document.write("<section><h2> 2. What is Nates favorite color?</h2> Question 2 was incorrect. The correct answer is C.</p></section>")
+  }
+
+  //-----------------------------------Question 3-------------------------------------//
+
+  if (question3 ==="b") {
+      document.write("<section><h2> 3.What is Lilys favorite color?</h2> Question 3 was correct! the answer is light purple. </p><section ")
+  }
+  if (question2 !=="b") {
+    document.write("<section><h2>   3. What is Lilys favorite color?</h2> Question 3 was incorrect. The correct answer is B.</p></section>")
+}
+
+//-----------------------------------Question 4-------------------------------------//
+
+if (question4 ==="b") {
+    document.write("<section><h2>  4.What is Jamaris favorite color?</h2> Question 4 was correct! the answer is Green. </p><section ")
+}
+if (question4 !=="b") {
+  document.write("<section><h2>    4.What is Jamaris favorite color?</h2> Question 4 was incorrect. The correct answer is B.</p></section>")
+}
+
+//-----------------------------------Question 5-------------------------------------//
+
+if (question5 ==="c") {
+    document.write("<section><h2>  5.What is Perlas favorite color?</h2> Question 5 was correct! the answer is Blue. </p><section ")
+}
+if (question5 !=="c") {
+  document.write("<section><h2>    5.What is Perlas favorite color?</h2> Question 5 was incorrect. The correct answer is C.</p></section>")
+}
