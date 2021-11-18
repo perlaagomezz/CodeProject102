@@ -38,7 +38,7 @@ function percent(numerator){
   
   let question13 = prompt('When is Perlas birthday? A.May 1st B.March 21st C. April 3rd')
 
-  let question14 = prompt('When is Tyis birthday? A.Oct 7th B.July 28th C.Dec 22nd')
+  let question14 = prompt('When is Tyis birthday? A.Oct 22nd B.July 28th C.Dec 22nd')
 
   let question15 = prompt('When is Joedens birthday? A.Nov 5th B.Oct 27th C.Dec 1st ')
   
@@ -50,7 +50,7 @@ function percent(numerator){
 
   let question19 = prompt('What is Lilys favorite animal A.Cat B.Bear C.Spider')
 
-  let question20 = prompt('What is Jamaris favorite animal? A.Lion B.Panda C.Rihno')
+  let question20 = prompt('What is Joedens favorite animal? A.okapi B.Panda C.Rihno')
 
   let question21 = prompt('What is Tyis favorite animal? A.Panther B.Siberian Tigar C.Tigar')
 
@@ -163,4 +163,85 @@ if (question11 ==="a") {
  }
  if (question12 !=="a") {
      document.write("<section><h2>    12. When is Jamaris birthday? </h2> Question 12 was incorrect. My birthday is December 28th remember it.")
+ }
+
+ //-----------------------------------Question 13-------------------------------------//
+
+ if (question13 ==="b") {
+     document.write("<section><h2>   13. When is Perlas birthday? </h2> Question 13 was correct! Perlas birthday is March 21st ")
+ }
+ if (question13 !=="b") {
+     document.write("<section><h2>   13. When is Perlas birthday? </h2> Question 13 was incorrect. Perlas birthday is March 21st so remember it! ")
+ }
+
+ //-----------------------------------Question 14-------------------------------------//
+
+ if (question14 ==="c") {
+     document.write("<section><h2> 14. When is Tyis birthday?  </h2> Question 14 was correct! Tyis birthday is December 22nd")
+ }
+if (question14 !=="c") {
+    document.write("<section><h2>  14. When is Tyis birthday? </h2> Question 14 was incorrect. Tyis birthday is December 22nd ")
+}
+
+ //-----------------------------------Question 15-------------------------------------//
+
+if (question15 ==="a") {
+    document.write("<section><h2> 15. When is Joedens birthday? </h2> Question 15 is correct! Joedens birthday is November 5th.")
+}
+if (question16 !=="a") {
+    document.write("<section><h2> 15. When is Joedens birthday? </h2> Question 15 is incorrect. Joedens birthday is Nobember 5th.")
+}
+
+ //-----------------------------------Question 16-------------------------------------//
+
+ if (question16 ==="a") {
+    document.write("<section><h2> 16. When is Camerons birthday? </h2> Quewstion 16 is correct! Camerons birthday is December 30th. ")
+ }
+ if (question16 !=="a") {
+    document.write("<section><h2> 16. When is Camerons birthday? </h2> Question 16 is incorrect. Camerons birthday is December 30th. ")
+ }
+
+ //-----------------------------------Question 17-------------------------------------//
+
+if (question17 ==="b") {
+    document.write("<section><h2> 17. What is Mr.Mumms favorite animal? </h2> ")
+}
+if (question17 !=="b") {
+    document.write("<section><h2>  </h2> ")
+}
+
+ //-----------------------------------Question 18-------------------------------------//
+
+if (question18 ==="b") {
+    document.write("<section><h2>  </h2> ") 
+}
+if (question18 !=="b") {
+    document.write("<section><h2>  </h2> ") 
+}
+
+ //-----------------------------------Question 19-------------------------------------//
+
+ if (question19 ==="b") {
+    document.write("<section><h2> </h2> ")
+ }
+ if (question19 !=="b") {
+    document.write("<section><h2> </h2> ")
+ }
+
+ //-----------------------------------Question 20-------------------------------------//
+
+if (question20 ==="a") {
+    document.write("<section><h2> </h2> ")
+}
+if (question20 !=="a") {
+    document.write("<section><h2> </h2> ")
+}
+
+ //-----------------------------------Question 21-------------------------------------//
+
+ if (question21 ==="b") {
+    document.write("<section><h2> </h2> ")
+ }
+ if (question21 !=="b") {
+    document.write("<section><h2> </h2> ")
  }
