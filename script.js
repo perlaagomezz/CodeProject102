@@ -241,4 +241,4 @@ if (question20 !=="a") {
  }
  if (question21 !=="b") {
     document.write("<section><h2> </h2> ")
- }
+ 
