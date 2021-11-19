@@ -273,6 +273,3 @@ if (question21 ==="b") {
 
  if (question21 !=="b") {
     document.write("<section><h2> </h2> ")
-
- }
-
