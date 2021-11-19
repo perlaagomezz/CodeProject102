@@ -129,6 +129,34 @@ if (question8 !=="c") {
     document.write("<section><h2>    8. What is Camerons favorite color? </h2> Question 8 was incorrect. The answer is purple. ") 
 }
 
+//-----------------------------------Question 6-------------------------------------//
+
+if (question6 ==="b") {
+    document.write("<section><h2>   6.What is Tyis favorite color? </h2> Question 6 was correct! The answer is light pink.")
+}
+if (question6 !=="b") {
+    document.write("<section><h2>   6.What is Tyis favorite color? </h2> Question 6 was incorrect. The answer is light pink. ")
+}
+
+//-----------------------------------Question 7-------------------------------------//
+
+if (question7 ==="b") {
+    document.write("<section><h2>   7.What is Joedens favorite color? </h2> Question 7 was correct! The answer is purple. ")
+}
+if (question7 !=="b") {
+    document.write("<section><h2>   7. What is Joedens favorite color? </h2> Question 7 was incorrect. The answer is purple.")
+}
+
+//-----------------------------------Question 8-------------------------------------//
+
+if (question8 ==="c") {
+   document.write("<section><h2>    8. What is Camerons favorite color? </h2> Question 8 was correct! The answer is purple. ") 
+}
+if (question8 !=="c") {
+    document.write("<section><h2>    8. What is Camerons favorite color? </h2> Question 8 was incorrect. The answer is purple. ") 
+}
+
+
 //-----------------------------------Question 9-------------------------------------//
 
 if (question9 ==="a") {
@@ -244,4 +272,5 @@ if (question20 !=="a") {
  }
  if (question21 !=="b") {
     document.write("<section><h2> </h2> ")
+
  }

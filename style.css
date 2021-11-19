@@ -1,0 +1,39 @@
+h1{
+    color: white;
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    text-align: center;
+  
+}
+
+body{
+    background-color:lightslategrey;
+}
+
+h2{
+    color:white;
+    float: left;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+    border: 4px dotted;
+    width: 234px; 
+
+    
+}
+section{
+    color: lightpink;
+    float: center;
+    
+
+}
+img{
+    margin-left: 10px;
+    grid-auto-flow: ;
+}
+main{
+    text-align: center
+    ;
+}
+
