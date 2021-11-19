@@ -24,13 +24,13 @@ h2{
 }
 section{
     color: lightpink;
-    float: center;
+    margin-bottom: 200px;
     
 
 }
 img{
     margin-left: 10px;
-    grid-auto-flow: ;
+    
 }
 main{
     text-align: center
