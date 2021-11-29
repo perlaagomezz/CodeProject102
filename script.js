@@ -272,9 +272,4 @@ if (question20 !=="a") {
  }
  if (question21 !=="b") {
     document.write("<section><h2> </h2> ")
-<<<<<<< HEAD
- 
-=======
-
->>>>>>> 5967bfb3d06c9d55ab167a42a0055f2dcd4a222e
  }
