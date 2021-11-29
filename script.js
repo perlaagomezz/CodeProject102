@@ -240,4 +240,7 @@ if (question20 !=="a") {
 if (question21 ==="b") {
     document.write("<section><h2> 21. What is Tyis favorite animal? </h2> <h3> Question 21 is incorrect. Tyis favorite animal is a siberian tiger. </h3>")
 }
-  }
+  } 
+
+
+
