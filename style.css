@@ -20,16 +20,7 @@ h2{
     border: 4px dotted;
     width: 234px; 
 }
-h3{
-    color:white;
-    float: left;
-    margin-left: 600px;
-    margin-bottom: 100px;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 18px;
-    border: 4px dotted;
-    width: 234px; 
-}
+
 section{
     color: lightpink;
     margin-bottom: 200px;
