@@ -63,7 +63,7 @@ let wrongAnswer = 0;
   //-----------------------------------Question 2-------------------------------------//
 
   if (question2 ==="c") {
-      document.write( <><h2> 2. What is Nates favorite color?</h2><section> Question 2 was correct! the answer is blue.</section></>)
+      document.write( "<h2> 2. What is Nates favorite color?</h2><section> Question 2 was correct! the answer is blue.</section>")
   };
   if (question2 !=="c") {
       document.write("<h2> 2. What is Nates favorite color? </h2> <section> Question 2 was incorrect. The correct answer is blue. </section>") 
