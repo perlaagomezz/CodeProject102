@@ -14,17 +14,19 @@ h2{
     color:white;
     float: left;
     margin-left: 600px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     font-family: 'Architects Daughter', cursive;
     font-size: 18px;
-    border: 4px dotted;
+    border: 4px double;
     width: 234px; 
 }
 
 section{
-    color: lightpink;
-    margin-bottom: 200px;
-    text-align: center;
+    color: #ffb766;
+    margin-left: 560px;
+    border-style: dotted;
+    float: left;
+    text-align: center;   
 }
 img{
     margin-left: 10px;
