@@ -13,12 +13,11 @@ let wrongAnswer = 0;
   
   let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Orange ');
 
-  let question1 = prompt('1. What is Mr. Mumms favorite color?  A.Blue  B.orange  C.Orange');
+  let question3 = prompt('1. What is Mr. Mumms favorite color?  A.Blue  B.orange  C.Orange');
   
   let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Blue ');
  
-
-  let question3 = prompt('3. What is Lilys favorite color?  A.Pink  B.Light  Purple  C.Purple');
+  let question4 = prompt('3. What is Lilys favorite color?  A.Pink  B.Light  Purple  C.Purple');
   
   let question4 = prompt('4. What is Jamaris favorite color?  A.Brown  B.Green  C.Yellow');
   
