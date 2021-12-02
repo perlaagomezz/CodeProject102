@@ -82,8 +82,8 @@ let wrongAnswer = 0;
       document.write("<section><h2> 3. What is lilys favorite color? </h2>  <h3>Question 3 was incorrect. lilys favorite color is light purple. </h3> ")
       
   }
-
       document.write( "<h2> 2. What is Nates favorite color?</h2><section> Question 2 was correct! the answer is blue.</section>")
+
   };
   if (question2 !=="c") {
       document.write("<h2> 2. What is Nates favorite color? </h2> <section> Question 2 was incorrect. The correct answer is blue. </section>") 
