@@ -13,11 +13,6 @@ let wrongAnswer = 0;
   
   let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Orange ')
 
-  let question1 = prompt('1. What is Mr. Mumms favorite color?  A.Blue  B.orange  C.Orange');
-  
-  let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Blue ');
- 
-
   let question3 = prompt('3. What is Lilys favorite color?  A.Pink  B.Light  Purple  C.Purple');
   
   let question4 = prompt('4. What is Jamaris favorite color?  A.Brown  B.Green  C.Yellow');
@@ -26,11 +21,7 @@ let wrongAnswer = 0;
 
   let question6 = prompt('6. what is Tyis favorite color? A.light pink B.salmon C.coral');
 
-
   let question7 = prompt('7. What is Joedens favorite color? A.Blue B.Purple C.Black')
-
-  let question7 = prompt('7. What is Joedens favorite color? A.Blue B.Purple C.Pink');
-
   
   let question8 = prompt('8. What is Camerons favorite color? A.Orange B.Green C.Purple');
   
@@ -65,136 +56,58 @@ let wrongAnswer = 0;
 
   if (question1 ==="a") {
 
-      document.write("<section><h2> 1.What is Mr. Mumms favorite color ?</h2> <h3> Question 1 was correct! Mr. Mumms favorite color is blue. </h3>")
+      document.write("<h2> 1.What is Mr. Mumms favorite color ?</h2><section> Question 1 was correct! Mr. Mumms favorite color is blue. </section>")
   }
   if(question1 !== "a"){
-      document.write("<section><h2> 1.What is Mr. Mumms favorite color? </h2> <h3> Question 1 was incorrect. Mr. Mumms favorite color is blue. </h3>")
+      document.write("<h2> 1.What is Mr. Mumms favorite color? </h2> <section> Question 1 was incorrect. Mr. Mumms favorite color is blue. </section>")
   }
-
-     document.write("<h2> 1.What is Mr. Mumms favorite color ? </h2> <section> Question 1 was correct! The answer is blue. </section>")
-  };
-  if(question1 !== "a"){
-      document.write("<h2> 1.What is Mr. Mumms favorite color? </h2> <section> Question 1 was incorrect. The correct answer is blue </section>")
-  };
 
 
   //-----------------------------------Question 2-------------------------------------//
 
   if (question2 ==="c") {
 
-      document.write("<section><h2> 2. What is Nates favorite color? </h2> <h3> Question 2 was correct! Nates favorite color is Orange. </h3>")
+      document.write("<h2> 2. What is Nates favorite color? </h2> <section> Question 2 was correct! Nates favorite color is Orange. </section>")
   }
   if (question2 !=="c") {
-      document.write("<section><h2> 2. What is Nates favorite color? </h2> <h3>  Question 2 was incorrect. Nates favorite color is blue. </h3>")
-
+      document.write("<h2> 2. What is Nates favorite color? </h2> <section>  Question 2 was incorrect. Nates favorite color is blue. </section>")
+  }
   //-----------------------------------Question 3-------------------------------------//
 
   if (question3 ==="b") {
-      document.write("<section><h2> 3. What is lilys favorite color? </h2>  <h3>Question 3 was correct! lilys favorite color is light purple. </h3>")
+      document.write("<h2> 3. What is lilys favorite color? </h2>  <section>Question 3 was correct! lilys favorite color is light purple. </section>")
       
   }
   if (question3!=="b") {
-      document.write("<section><h2> 3. What is lilys favorite color? </h2>  <h3>Question 3 was incorrect. lilys favorite color is light purple. </h3> ")
-      
-  }
-
-      document.write( <><h2> 2. What is Nates favorite color?</h2><section> Question 2 was correct! the answer is blue.</section></>)
+      document.write("<h2> 3. What is lilys favorite color? </h2>  <section>Question 3 was incorrect. lilys favorite color is light purple. </section> ")
   };
-  if (question2 !=="c") {
-      document.write("<h2> 2. What is Nates favorite color? </h2> <section> Question 2 was incorrect. The correct answer is blue. </section>") 
-  };
-  //-----------------------------------Question 3-------------------------------------//
-
-  if (question3 ==="b") {
-      document.write("<h2> 3. What is lilys favorite color? </h2> <section> Question 3 was correct! The answer is light purple. </section>")  
-  };
-  if (question3!=="b") {
-      document.write("<h2> 3. What is lilys favorite color? </h2> <section> Question 3 was incorrect. The answer is light purple.</section>")  
-  };
-
+ 
 
 //-----------------------------------Question 4-------------------------------------//
 
 if (question4 ==="a") {
-    document.write("<section><h2>  4.What is Jamaris favorite color? </h2>  <h3>Question 4 was correct! Jamaris favorite is brown. </h3> ")
+    document.write("<h2>  4.What is Jamaris favorite color? </h2>  <section>Question 4 was correct! Jamaris favorite is brown. </section> ")
 }
 if (question4 !=="a") {
-  document.write("<section><h2>    4.What is Jamaris favorite color? </h2>  <h3>Question 4 was incorrect. Jamaris favorite is brown. </h3> ")
+  document.write("<h2>    4.What is Jamaris favorite color? </h2>  <section>Question 4 was incorrect. Jamaris favorite is brown. </section> ")
 }
-    document.write("<h2>  4.What is Jamaris favorite color? </h2> <section> Question 4 was correct! the answer is brown. </section>")
-};
-if (question4 !=="a") {
-  document.write("<h2>    4.What is Jamaris favorite color? </h2> <section> Question 4 was incorrect. The correct answer is brown.</section>")
-};
-
 //-----------------------------------Question 5-------------------------------------//
 
 if (question5 ==="c") {
-    document.write("<section><h2>  5.What is Perlas favorite color? </h2> <h3> Question 5 was correct! Perlas favorite color is blue. </h3> ")
+    document.write("<h2>  5.What is Perlas favorite color? </h2> <section> Question 5 was correct! Perlas favorite color is blue. </section> ")
 }
 if (question5 !=="c") {
-  document.write("<section><h2>    5.What is Perlas favorite color? </h2> <h3> Question 5 was incorrect. Perlas favorite color is blue. </h3> ")
+  document.write("<h2>    5.What is Perlas favorite color? </h2> <section> Question 5 was incorrect. Perlas favorite color is blue. </section> ")
 }
-    document.write("<h2>  5.What is Perlas favorite color? </h2><section>Question 5 was correct! The answer is blue. </section>")
-};
-if (question5 !=="c") {
-  document.write("<h2> 5.What is Perlas favorite color? </h2><section> Question 5 was incorrect. The correct answer is blue.</section>")
-};
-
 //-----------------------------------Question 6-------------------------------------//
 
 if (question6 ==="a") {
-    document.write("<section><h2>   6.What is Tyis favorite color? </h2> <h3> Question 6 was correct! Tyis favorite color is light pink.</h3>")
+    document.write("<h2>   6.What is Tyis favorite color? </h2> <section> Question 6 was correct! Tyis favorite color is light pink.</section>")
 }
 if (question6 !=="a") {
-    document.write("<section><h2>   6.What is Tyis favorite color? </h2> <h3> Question 6 was incorrect. Tyis favorite color is light pink. </h3> ")
-}
-    document.write("<h2>6.What is Tyis favorite color? </h2><section>Question 6 was correct! The answer is light pink.</section>")
-};
-if (question6 !=="a") {
-    document.write("<h2>6.What is Tyis favorite color? </h2><section>Question 6 was incorrect. The answer is light pink.</section>")
-};
-
-//-----------------------------------Question 7-------------------------------------//
-
-if (question7 ==="b") {
-    document.write("<section><h2>   7.What is Joedens favorite color? </h2> <h3> Question 7 was correct! Joedens favorite color is purple. </h3> ")
-}
-if (question7 !=="b") {
-    document.write("<section><h2>   7. What is Joedens favorite color? </h2> <h3> Question 7 was incorrect. Joedens favorite color is purple. </h3> ")
+    document.write("<h2>   6.What is Tyis favorite color? </h2> <section> Question 6 was incorrect. Tyis favorite color is light pink. </section> ")
 }
 
-    document.write("<h2>7.What is Joedens favorite color? </h2><section>Question 7 was correct! The answer is purple.</section>")
-};
-if (question7 !=="b") {
-    document.write("<h2>7. What is Joedens favorite color? </h2><section>Question 7 was incorrect. The answer is purple.</section>")
-};
-
-//-----------------------------------Question 8-------------------------------------//
-
-if (question8 ==="c") {
-
-   document.write("<section><h2>    8. What is Camerons favorite color? </h2> <h3> Question 8 was correct! Camerons favorite color is purple. </h3> ") 
-}
-if (question8 !=="c") {
-    document.write("<section><h2>    8. What is Camerons favorite color? </h2> <h3> Question 8 was incorrect.Camerons favorite color is purple. </h3> ") 
-}
-
-
-   document.write("<h2>8. What is Camerons favorite color? </h2><section>Question 8 was correct! The answer is purple.</section>") 
-};
-if (question8 !=="c") {
-    document.write("<h2>8. What is Camerons favorite color? </h2><section>Question 8 was incorrect. The answer is purple.</section>") 
-};
-
-//-----------------------------------Question 6-------------------------------------//
-
-if (question6 ==="b") {
-    document.write("<h2>6.What is Tyis favorite color? </h2><section>Question 6 was correct! The answer is light pink.</section></h2")
-};
-if (question6 !=="b") {
-    document.write("<h2>6.What is Tyis favorite color? </h2><section>Question 6 was incorrect. The answer is light pink.</h2></section>")
-};
 
 //-----------------------------------Question 7-------------------------------------//
 
@@ -219,10 +132,10 @@ if (question8 !=="c") {
 //-----------------------------------Question 9-------------------------------------//
 
 if (question9 ==="a") {
-    document.write("<h2>9. When is Mr.Mumms birthday? </h2><section>Question 9 was correct!  Mr.Mumms birthday is September 24th. </h3></section>")
+    document.write("<h2>9. When is Mr.Mumms birthday? </h2><section>Question 9 was correct!  Mr.Mumms birthday is September 24th. </section>")
 };
 if (question9 !=="a") {
-    document.write("<h2>9. When is Mr.Mumms birthday? </h2><section>Question 9 was incorrect. Mr.Mumms birthday is September 24th. </h3></section>")
+    document.write("<h2>9. When is Mr.Mumms birthday? </h2><section>Question 9 was incorrect. Mr.Mumms birthday is September 24th. </section>")
 };
 
 //-----------------------------------Question 10-------------------------------------//
@@ -322,15 +235,9 @@ if (question20 ==="a") {
 };
 if (question20 !=="a") {
 
-    document.write("<section><h2> 20. What is Joedens favorite animal? </h2> <h3> Question 20 is incorrect. Joedens favorite animal is an Okapi because he is also a weirdo. </h3> ")
+    document.write("<h2> 20. What is Joedens favorite animal? </h2> <section> Question 20 is incorrect. Joedens favorite animal is an Okapi because he is also a weirdo. </section> ")
 }
-  }
-
-    document.write("<h2> 20. What is Joedens favorite animal? </h2><section>Question 20 is incorrect. Joedens favorite animal is an Okapi because he is also a weirdo.</section>  ")
-};
-
- //-----------------------------------Question 21-------------------------------------//
-
+//--------------------------------Question 21-------------------------------------//
  if (question21 ==="b") {
     document.write("<h2> 21. What is Tyis favorite animal? </h2><section>Question 21 is correct! Tyis favorite animal is a siberian tiger. </section> ")
  };
@@ -338,5 +245,3 @@ if (question20 !=="a") {
 if (question21 ==="b") {
     document.write("<h2> 21. What is Tyis favorite animal? </h2><section>Question 21 is incorrect. Tyis favorite animal is a siberian tiger. </section> ")
 }
-  
-
