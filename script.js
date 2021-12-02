@@ -9,15 +9,11 @@ let wrongAnswer = 0;
 
 
 
-  let question1 = prompt('1. What is Mr. Mumms favorite color?  A.Blue  B.orange  C.Yellow');
+  let question1 = prompt('1. What is Mr. Mumms favorite color?  A.Blue  B.orange  C.Yellow')
   
-  let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Orange ');
-
-  let question3 = prompt('1. What is Mr. Mumms favorite color?  A.Blue  B.orange  C.Orange');
-  
-  let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Blue ');
+  let question2 = prompt('2.  What is Nates favorite color?  A.Lime green  B.Red  C.Orange ')
  
-  let question4 = prompt('3. What is Lilys favorite color?  A.Pink  B.Light  Purple  C.Purple');
+  let question3 = prompt('3. What is Lilys favorite color?  A.Pink  B.Light  Purple  C.Purple');
   
   let question4 = prompt('4. What is Jamaris favorite color?  A.Brown  B.Green  C.Yellow');
   
@@ -25,12 +21,8 @@ let wrongAnswer = 0;
 
   let question6 = prompt('6. what is Tyis favorite color? A.light pink B.salmon C.coral');
 
-
   let question7 = prompt('7. What is Joedens favorite color? A.Blue B.Purple C.Black')
 
-  let question7 = prompt('7. What is Joedens favorite color? A.Blue B.Purple C.Pink');
-
-  
   let question8 = prompt('8. What is Camerons favorite color? A.Orange B.Green C.Purple');
   
   let question9 = prompt('9. When is Mr. Mumms birthda?y A.Sept 24th  B.Nov 1st C.July 14th');
@@ -57,8 +49,6 @@ let wrongAnswer = 0;
 
   let question20 = prompt('20. What is Joedens favorite animal? A.okapi B.Panda C.Rihno');
 
-  let question21 = prompt('21. What is Tyis favorite animal? A.Panther B.Siberian Tigar C.Tigar');
-
 
   //-----------------------------------Question 1-------------------------------------//
 
@@ -71,14 +61,16 @@ let wrongAnswer = 0;
   }
 
 
+
+
   //-----------------------------------Question 2-------------------------------------//
 
   if (question2 ==="c") {
-       document.write( "<h2> 2. What is Nates favorite color?</h2><section> Question 2 was correct! the answer is blue.</section>")
- 
+
       document.write("<section><h2> 2. What is Nates favorite color? </h2> <h3> Question 2 was correct! Nates favorite color is Orange. </h3>")
   }
-
+  if (question2 !=="c") {
+      document.write("<section><h2> 2. What is Nates favorite color? </h2> <h3>  Question 2 was incorrect. Nates favorite color is blue. </h3>")
 
   //-----------------------------------Question 3-------------------------------------//
 
@@ -92,7 +84,7 @@ let wrongAnswer = 0;
   }
 
       document.write( "<h2> 2. What is Nates favorite color?</h2><section> Question 2 was correct! the answer is blue.</section>")
-   ;
+  };
   if (question2 !=="c") {
       document.write("<h2> 2. What is Nates favorite color? </h2> <section> Question 2 was incorrect. The correct answer is blue. </section>") 
   };
@@ -114,6 +106,7 @@ if (question4 ==="a") {
 if (question4 !=="a") {
   document.write("<section><h2>    4.What is Jamaris favorite color? </h2>  <h3>Question 4 was incorrect. Jamaris favorite is brown. </h3> ")
 }
+   
 
 //-----------------------------------Question 5-------------------------------------//
 
@@ -123,7 +116,7 @@ if (question5 ==="c") {
 if (question5 !=="c") {
   document.write("<section><h2>    5.What is Perlas favorite color? </h2> <h3> Question 5 was incorrect. Perlas favorite color is blue. </h3> ")
 }
-
+  
 
 //-----------------------------------Question 6-------------------------------------//
 
@@ -133,6 +126,7 @@ if (question6 ==="a") {
 if (question6 !=="a") {
     document.write("<section><h2>   6.What is Tyis favorite color? </h2> <h3> Question 6 was incorrect. Tyis favorite color is light pink. </h3> ")
 }
+    
 
 //-----------------------------------Question 7-------------------------------------//
 
@@ -141,8 +135,11 @@ if (question7 ==="b") {
 }
 if (question7 !=="b") {
     document.write("<section><h2>   7. What is Joedens favorite color? </h2> <h3> Question 7 was incorrect. Joedens favorite color is purple. </h3> ")
+}
 
-    //---------------------------Question 8-------------------------------------//
+    
+
+//-----------------------------------Question 8-------------------------------------//
 
 if (question8 ==="c") {
 
@@ -151,8 +148,7 @@ if (question8 ==="c") {
 if (question8 !=="c") {
     document.write("<section><h2>    8. What is Camerons favorite color? </h2> <h3> Question 8 was incorrect.Camerons favorite color is purple. </h3> ") 
 }
-
-
+   
 //-----------------------------------Question 6-------------------------------------//
 
 if (question6 ==="b") {
@@ -288,9 +284,7 @@ if (question20 ==="a") {
 };
 if (question20 !=="a") {
 
-    document.write("<section><h2> 20. What is Joedens favorite animal? </h2> <h3> Question 20 is incorrect. Joedens favorite animal is an Okapi because he is also a weirdo. </h3> ")
-}
-  
+    
 
  //-----------------------------------Question 21-------------------------------------//
 
@@ -301,4 +295,4 @@ if (question20 !=="a") {
 if (question21 ==="b") {
     document.write("<h2> 21. What is Tyis favorite animal? </h2><section>Question 21 is incorrect. Tyis favorite animal is a siberian tiger. </section> ")
 }
-} 
+}
